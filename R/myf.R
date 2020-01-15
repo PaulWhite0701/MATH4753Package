@@ -12,7 +12,7 @@
 #' @examples
 #' x=1:4;myf(x)
 myf=function(x){
-  obj1=x^2
+  obj1=x^2 #square a vector
   obj2=x^3
   list(squared=obj1, cubed=obj2)
 }
