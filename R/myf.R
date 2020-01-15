@@ -13,6 +13,6 @@
 #' x=1:4;myf(x)
 myf=function(x){
   obj1=x^2 #square a vector
-  obj2=x^3
+  obj2=x^3 #cube a vector
   list(squared=obj1, cubed=obj2)
 }
